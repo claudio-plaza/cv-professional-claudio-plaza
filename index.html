@@ -10,22 +10,26 @@
   <body>
     <div class="container">
       <header>
-        <div class="profile-container">
-          <img
-            src="img-perfil.jpeg"
-            alt="Claudio Plaza"
-            class="profile-img"
-            id="profile-pic"
-          />
+        <div class="header-top">
+          <div class="header-text">
+            <h1>CLAUDIO PLAZA</h1>
+            <p class="subtitle">OPERACIONES Y STOCK</p>
+          </div>
+          <div class="profile-container">
+            <img
+              src="img-perfil.jpeg"
+              alt="Claudio Plaza"
+              class="profile-img"
+              id="profile-pic"
+            />
+          </div>
         </div>
-        <h1>CLAUDIO PLAZA</h1>
-        <p class="subtitle">Programador Full Stack en Formación</p>
         <div class="contact-bar">
           <a href="mailto:claudioplaza92@gmail.com" class="contact-link">
             <span>✉️</span> claudioplaza92@gmail.com
           </a>
           <a href="tel:2612482532" class="contact-link">
-            <span>📞</span> 2612482532
+            <span>📞</span> 261 2482532
           </a>
           <a
             href="https://www.linkedin.com/in/claudiogabrielplaza/"
@@ -34,39 +38,95 @@
           >
             <span>🔗</span> LinkedIn
           </a>
-          <a
-            href="https://www.instagram.com/claudioplaza92/"
-            target="_blank"
-            class="contact-link"
-          >
-            <span>📸</span> Instagram
-          </a>
           <span class="contact-link"> <span>📍</span> Mendoza, Argentina </span>
         </div>
       </header>
 
-      <section id="perfil" style="animation-delay: 0.2s">
+      <section id="perfil" style="animation-delay: 0.1s">
         <h2>Perfil Profesional</h2>
         <div class="glass-card">
           <p>
-            Soy una persona responsable y ordenada, autodidacta y en constante
-            aprendizaje. Cuento con habilidades de trabajo en equipo adquiridas
-            a lo largo de mi vida laboral. Me destaco por mi amabilidad,
-            capacidad para actuar rápido y resolución de problemas.
+            Profesional con 10 años de experiencia liderando operaciones y
+            optimizando la gestión de inventarios. Especializado en el control
+            de stock, manejo de proveedores y liderazgo de equipos de trabajo.
+            Busco aplicar mis habilidades para garantizar la eficiencia
+            logística y contribuir al crecimiento empresarial.
           </p>
+          <div style="margin-top: 1.5rem">
+            <h3
+              style="
+                font-size: 1.1rem;
+                margin-bottom: 0.5rem;
+                color: var(--accent);
+              "
+            >
+              Objetivos Profesionales
+            </h3>
+            <p>
+              Aspiro a aplicar mi experiencia en gestión de inventario y
+              liderazgo de equipos para garantizar una operación eficiente en el
+              sector que me asignen. Mi objetivo es asegurar un manejo óptimo
+              del stock, mantener altos estándares de calidad y contribuir al
+              crecimiento de la empresa a través de una gestión efectiva de
+              recursos y procesos operativos.
+            </p>
+          </div>
         </div>
       </section>
 
-      <section id="experiencia" style="animation-delay: 0.4s">
+      <section id="experiencia" style="animation-delay: 0.2s">
         <h2>Experiencia Laboral</h2>
         <div class="glass-card">
+          <div class="experience-item">
+            <div class="exp-header">
+              <div class="exp-title">JEFE DE COCINA - RESTAURANTE ZITTO</div>
+              <div class="exp-date">2015 - 2024</div>
+            </div>
+            <div class="exp-subtitle">Relación de dependencia - Full Time</div>
+            <ul class="exp-list">
+              <li>Gestión y capacitación de equipo de trabajo</li>
+              <li>Control y optimización de inventario</li>
+              <li>Supervisión de operaciones diarias</li>
+              <li>Manejo de proveedores y control de stock</li>
+            </ul>
+          </div>
+
+          <div class="experience-item">
+            <div class="exp-header">
+              <div class="exp-title">CHOFER DE REPARTO PAQUETERÍA</div>
+              <div class="exp-date">2024 - 2025</div>
+            </div>
+            <div class="exp-subtitle">Full Time</div>
+            <p>
+              Repartidor de paquetes de Mercado Libre. Logística y entrega de 60
+              a 110 paquetes diarios.
+            </p>
+          </div>
+
+          <div class="experience-item" style="margin-bottom: 0">
+            <div class="exp-header">
+              <div class="exp-title">CHOFER DE APLICACIÓN UBER</div>
+              <div class="exp-date">2025 - ACTUALIDAD</div>
+            </div>
+            <div class="exp-subtitle">Full Time</div>
+            <p>
+              Transporte de pasajeros a través de aplicación Uber. Categoría de
+              carnet D1.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="portfolio-tech" style="animation-delay: 0.3s">
+        <h2>Trabajo actual en Overall Design</h2>
+        <div class="glass-card">
           <div
-            class="project-title"
+            class="project-header"
             style="
               display: flex;
               align-items: center;
               gap: 1rem;
-              flex-wrap: wrap;
+              margin-bottom: 1rem;
             "
           >
             <a
@@ -76,93 +136,47 @@
                 text-decoration: none;
                 color: var(--accent);
                 font-weight: 700;
-                font-size: 1.4rem;
+                font-size: 1.2rem;
               "
             >
               Overall Design Portfolio 🔗
             </a>
-            <span class="badge" style="margin-top: 0; background: #10b981"
-              >TRABAJO ACTUAL</span
-            >
+            <span class="badge" style="background: #10b981"
+              >COLABORADOR ACTUAL</span
+            ><!--
           </div>
-          <p
-            style="
-              margin-bottom: 2rem;
-              color: var(--text-secondary);
-              font-weight: 500;
-            "
-          >
-            Programación y creación de sitios y aplicaciones web de alto
-            impacto.
-          </p>
-
           <div class="grid">
             <div class="project-card">
-              <strong style="display: block; margin-bottom: 1rem"
-                >Sitios Web Desarrollados:</strong
+              <strong style="display: block; margin-bottom: 0.5rem"
+                >Sitios Destacados:</strong
               >
-              <ul class="project-list">
+              <ul class="project-list" style="font-size: 0.9rem">
+                <li>
+                  <a href="https://mazallegro.com" target="_blank"
+                    >Mazallegro (Web App) 🚀</a
+                  >
+                </li>
                 <li>
                   <a href="https://pediahome.com.ar" target="_blank"
                     >pediahome.com.ar</a
                   >
                 </li>
                 <li>
-                  <a href="https://wolfhard.com.ar" target="_blank"
-                    >wolfhard.com.ar</a
-                  >
-                </li>
-                <li>
-                  <a href="https://labparacelsus.com" target="_blank"
-                    >labparacelsus.com</a
-                  >
-                </li>
-                <li>
-                  <a href="https://neumohome.com" target="_blank"
-                    >neumohome.com</a
-                  >
-                </li>
-                <li>
-                  <a href="https://diface.com.ar" target="_blank"
-                    >diface.com.ar</a
-                  >
-                </li>
-                <li>
                   <a href="https://dibiagi.com" target="_blank">dibiagi.com</a>
-                </li>
-                <li>
-                  <a href="https://centromedicocrecer.com" target="_blank"
-                    >centromedicocrecer.com</a
-                  >
                 </li>
               </ul>
             </div>
             <div class="project-card">
-              <strong style="display: block; margin-bottom: 1rem"
-                >Aplicaciones Web:</strong
+              <strong style="display: block; margin-bottom: 0.5rem"
+                >Otras Colaboraciones:</strong
               >
-              <ul class="project-list">
-                <li>
-                  <a href="https://hachidori-ade96.web.app/" target="_blank"
-                    >hachidori-ade96.web.app</a
-                  >
-                </li>
-              </ul>
-              <div style="margin-top: auto">
-                <div class="badge">PROYECTO DESTACADO</div>
-                <div style="margin-top: 1rem">
-                  <a
-                    href="https://mazallegro.com"
-                    target="_blank"
-                    style="color: #fff; text-decoration: none; font-weight: 500"
-                  >
-                    Mazallegro (Web App) 🚀
-                  </a>
-                </div>
-              </div>
+              <p style="font-size: 0.85rem; color: var(--text-secondary)">
+                Desarrollo y mantenimiento de plataformas como Lab Paracelsus,
+                Neumohome, Diface y Centro Médico Crecer.
+              </p>
             </div>
           </div>
-        </div>
+        </div>-->
       </section>
 
       <section id="tecnico" style="animation-delay: 0.6s">
@@ -179,28 +193,31 @@
         </div>
       </section>
 
-      <section id="educacion" style="animation-delay: 0.8s">
+      <section id="educacion" style="animation-delay: 0.5s">
         <h2>Educación</h2>
         <div class="glass-card">
           <div class="edu-item">
-            <div class="edu-title">
-              Instituto Superior Politécnico de Córdoba
+            <div class="edu-header">
+              <div class="edu-title">DESARROLLO DE SOFTWARE</div>
+              <div class="edu-date">EN CURSO</div>
             </div>
             <div class="edu-sub">
-              Carrera de Programación y aplicaciones web (En Curso)
+              Instituto Superior Politécnico Córdoba - Título: Programador
             </div>
           </div>
           <div class="edu-item">
-            <div class="edu-title">Casa del Futuro</div>
-            <div class="edu-sub">Curso intensivo de JavaScript (2025)</div>
-          </div>
-          <div class="edu-item">
-            <div class="edu-title">ICAPA</div>
-            <div class="edu-sub">Inglés básico (2020-2021)</div>
+            <div class="edu-header">
+              <div class="edu-title">CURSO INTENSIVO JAVASCRIPT</div>
+              <div class="edu-date">2025</div>
+            </div>
+            <div class="edu-sub">Casa del Futuro</div>
           </div>
           <div class="edu-item" style="margin-bottom: 0">
-            <div class="edu-title">Secundario Completo</div>
-            <div class="edu-sub">Cens Padre Jorge Contreras (2010-2013)</div>
+            <div class="edu-header">
+              <div class="edu-title">SECUNDARIA</div>
+              <div class="edu-date">2010 - 2013</div>
+            </div>
+            <div class="edu-sub">Cens Padre Jorge Contreras 3-407</div>
           </div>
         </div>
       </section>
