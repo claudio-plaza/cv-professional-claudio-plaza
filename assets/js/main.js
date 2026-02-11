@@ -53,6 +53,15 @@ document.addEventListener("DOMContentLoaded", () => {
       profilePic.style.transform = "scale(1) translateY(0)";
     }, 200);
   }
+
+  // Lógica de descarga de PDF
+  const downloadBtn = document.getElementById("download-pdf");
+  if (downloadBtn) {
+    downloadBtn.addEventListener("click", () => {
+      window.print();
+    });
+  }
 });
+
 
 

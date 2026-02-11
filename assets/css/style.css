@@ -330,3 +330,54 @@ section.reveal {
   
   .glass-card { padding: 1.5rem; }
 }
+
+/* Print Styles for PDF Fidelity */
+@media print {
+  body {
+    background: white !important;
+    background-image: none !important;
+    color: #000 !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  
+  .container {
+    padding: 0 !important;
+    width: 100% !important;
+    max-width: none !important;
+  }
+  
+  section {
+    opacity: 1 !important;
+    transform: none !important;
+    break-inside: avoid;
+  }
+  
+  .glass-card {
+    background: white !important;
+    border: 1px solid #eee !important;
+    box-shadow: none !important;
+    padding: 1.5rem !important;
+    margin-bottom: 1.5rem !important;
+  }
+  
+  .download-container, .contact-link:hover {
+    display: none !important;
+  }
+  
+  h2::after {
+    background: #ccc !important;
+  }
+  
+  .skill-pill {
+    background: #f1f5f9 !important;
+    border: 1px solid #ccc !important;
+    color: #333 !important;
+  }
+  
+  .exp-date, .edu-date {
+    background: #e2e8f0 !important;
+    color: #1d4ed8 !important;
+  }
+}
+
